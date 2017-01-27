@@ -101,9 +101,9 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.MyViewHold
         holder.totaldays.setText(days);
 
         //for progressbar color
-        if (total_days < 30) {
+        if (total_days < 15) {
             holder.progressBar.getProgressDrawable().setColorFilter(Color.parseColor("#f44336"), PorterDuff.Mode.MULTIPLY);
-        } else if (total_days < 90) {
+        } else if (total_days < 30) {
             holder.progressBar.getProgressDrawable().setColorFilter(Color.parseColor("#ffea00"), PorterDuff.Mode.MULTIPLY);
         } else {
             holder.progressBar.getProgressDrawable().setColorFilter(Color.parseColor("#64dd17"), PorterDuff.Mode.MULTIPLY);

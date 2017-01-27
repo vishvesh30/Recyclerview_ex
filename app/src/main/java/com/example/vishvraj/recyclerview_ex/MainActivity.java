@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
         movie = new Movie("Mission: Impossible Rogue Nation", "Action", "2018", "06", "14");
         movieList.add(movie);
 
-        movie = new Movie("Up", "Animation", "2018", "08", "15");
+        movie = new Movie("Up", "Animation", "2017", "02", "15");
         movieList.add(movie);
 
         movie = new Movie("Star Trek", "Science Fiction", "2017", "04", "18");
@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
         movie = new Movie("Iron Man", "Action & Adventure", "2018", "11", "20");
         movieList.add(movie);
 
-        movie = new Movie("Aliens", "Science Fiction", "2018", "09", "15");
+        movie = new Movie("Aliens", "Science Fiction", "2017", "01", "31");
         movieList.add(movie);
 
         movie = new Movie("Chicken Run", "Animation", "2016", "06", "05");
